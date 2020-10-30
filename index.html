@@ -15,7 +15,7 @@
         label{
             font-size: 20px;
             margin-bottom: 50px;
-            font-family: fantasy;
+            font-family: cursive;
         }
         input{
             margin-bottom: 50px;
@@ -34,10 +34,12 @@
         123456
     </div>
     <label for="txtInput">My Input</label>
-    <input type="number" class="txtInput">
+    
+    <input type="number" step="20" min="-200" value="100"class="txtInput">
     <button>CLEAR</button>
     <fieldset id="items" style="display:inline-block; height: 35px;"></fieldset>
     <fieldset onclick="onfieldclick(event)">
+        
         <button>
             Math-Random
         </button>
